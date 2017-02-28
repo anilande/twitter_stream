@@ -19,13 +19,8 @@ nodejs, npm have been installed
 - run : `webpack`
 
 ### Start local server:
-- run : `node_modules/.bin/babel-node --presets 'react,es2015' src/server.js` (presets are already part of the package but for a clarity i added it to the commend)
-- browse to `localhost:8888` to view the project.
-
-### Single page app mode: (page with dummy data will be displayed)
-1. uncomment line 48 in main.js
-2. run command 'webpack'
-3. start a web server inside static folder (python -m SimpleHTTPServer 8080)
+- run : `node_modules/.bin/babel-node --presets 'react,es2015' src/stream.js` (presets are already part of the package but for a clarity i added it to the commend)
+- browse to `localhost:8080` to view the project.
 
 ### TODO:
 - implement test suite

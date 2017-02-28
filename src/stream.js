@@ -41,10 +41,10 @@ app.get('*', (req, res) => {
 //Setup twitter stream api
 const
 	twit = new twitter({
-		consumer_key: 'nDfmD0DkR3OxxzzmNgLjMSO8i',
-    consumer_secret: 'o5VQaWeFH9kfcbBpcfG1qSnSoR3QAoxaBTGyRssEm3rRvT6dKn',
-    access_token_key: '836400207147327488-Z97YHxOhCDB3UmeQ6L0DEWaI0tRaKRE',
-    access_token_secret: 'dHHtAidF697C5XAl7SxQ0Du1imi7SJdbYqJyLApesnXxD'
+		consumer_key: '-',
+		consumer_secret: '-',
+		access_token_key: '-',
+		access_token_secret: '-'
 	}),
 	stream = null;
 
